@@ -24,7 +24,7 @@ This is a section about mixins.
 
 body {
     color: $site-background;
-    font-family: $font-family;
+    font: 1em $font-family;
 }
 
 @include heading-size(2em);
